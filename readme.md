@@ -1,7 +1,7 @@
 # Desarrollo de Software I
 
-- [Introduccion](blob/master/introduccion.md)
-- [Metodologías](blob/master/metodologias.md)
+- [Introduccion](introduccion.md)
+- [Metodologías](metodologias.md)
 
 
 ## Links utiles

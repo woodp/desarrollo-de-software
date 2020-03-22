@@ -1,18 +1,71 @@
-# Fases tradicionales del desarrollo de software
+# Introducción al desarrollo de software
 
-- Captura de requerimientos
+El desarrollo de software es una disciplona joven. Hace poco más de 60 años que se programan computadoras, hace 40 se empezó a intentar sistematizar un proceso, y hace unos 30 se empezaron a introduciar paradigmas que permitan el manejo de la complejidad. Comparado con las ingenierías tradicionales que tienen siglos de antigüedad, es una actividad inmadura.
+
+
+## Metodologías de software
+
+- Cascada
+- Iterativo: UP / RUP
+- Agiles: Scrum, XP, Lean, Kanban
+
+### Cascada (Waterfall)
+
+#### Ciclo de vida
+
+- Captura de requisitos
 - Análisis y Diseño
 - Desarrollo
-- Prueba (Testing)
+- Pruebas (Testing)
 - Despliegue
+- Mantenimiento
 
-# Roles tradicionales en desarrollo de software
+#### Roles
 
-- Analista funcional (captura de requerimiento, análisis y diseño)
-- Desarrollador / Programador (diseño y desarrollo software)
-- Tester / QA (pruebas, verificación del software)
+- Analista funcional
+- Diseñador
+- Programador
+- Tester / QA
 
-# Nuevas prácticas en desarrollo de software
+Se capturaban todos los requisitos, y una vez elaborados y validados con el cliente se "congelaban". Muchas veces requiriendo la firma del cliente en este paso. A partir de este momento el cliente no podía pedir cambios hasta que el software fuera finalizado y entregado. En todo caso los cambios eran considerados una segunda etapa donde todo el proceso empezada desde cero.
+
+Les programadores era consideraros como el equivalente de un obrero industrial que debía ejecutar el diseño que habían realizado les diseñadores en base a los requisitos elaborados por les analistas funcionales.
+Los documentos tenían la misma o más importancia que el software e incluso flotaba la idea de que el código iba a poder ser generado automáticamente.
+
+
+Los tiempos de entrega solían ser largos y muchos proyectos de software fracasaron en esta época. Esto llevó a que surgieran nuevas metodologías de desarrollo de software.
+
+### UP: Unified Process
+
+RUP: Rational Unified Process
+
+Es un proceso iterativo que tiene forma de mini cascadas. Si bien cada iteración abarca todas las fases. En las primeras iteraciones tiene preponderancia la elaboración requisitos, luego en sucesivas iteraciones el diseño, después el desarrollo y por último el despliegue.
+
+![Etapas de RUP](https://image.slidesharecdn.com/metodologarupfinal-170322045322/95/metodologa-rup-final-6-638.jpg?cb=1490158865)
+
+Se aceptan cambios y se favorece la interacción con el cliente.
+
+La calidad del producto debe evaluarse en todas las etapas del proceso.
+
+
+### Metodologías ágiles
+
+
+
+
+### Lean
+
+Los siete principios del desarrollo Lean son: 
+- Eliminar el desperdicio
+- Generar calidad
+- Crear conocimiento
+- Diferir el compromiso
+- Entregar rápidamente
+- Respetar a las personas
+- Optimizar el todo
+
+
+## Nuevas prácticas y conceptos en desarrollo de software
 
 - Programacion de a pares y en masa (mobbing)
 - Unit testing y desarrollo guiado por pruebas (TDD)
@@ -23,7 +76,7 @@
 - DevOps
 - Máquinas virtuales, containers e infraestructura como código
 
-# Ciclo de liberación del software
+## Ciclo de liberación del software
 
 - Pre-alpha: antes del testing
     - Milestone: hito

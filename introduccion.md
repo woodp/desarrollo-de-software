@@ -2,36 +2,40 @@
 
 El desarrollo de software es una disciplona joven. Hace poco más de 60 años que se programan computadoras, hace 40 se empezó a intentar sistematizar un proceso, y hace unos 30 se empezaron a introduciar paradigmas que permitan el manejo de la complejidad. Comparado con las ingenierías tradicionales que tienen siglos de antigüedad, es una actividad inmadura.
 
-
 ## Metodologías de software
 
-- Cascada
+- Cascada (Waterfall)
 - Iterativo: UP / RUP
-- Agiles: Scrum, XP, Lean, Kanban
+- Agiles: Scrum, XP, Kanban
 
 ### Cascada (Waterfall)
 
+El modelo de desarrollo en cascada se originó en la industria y la construcción, donde los cambios a posteriori son caros y difíciles de implementar.
+
 #### Ciclo de vida
 
-- Captura de requisitos
-- Análisis y Diseño
+- Análisis / Captura de requisitos
+- Diseño
 - Desarrollo
-- Pruebas (Testing)
+- Verificación (Testing, QA)
 - Despliegue
 - Mantenimiento
+
+![Ciclo de vida del software](https://user.oc-static.com/upload/2017/07/11/14997883020913_Captura%20de%20pantalla%202017-07-11%20a%20las%2017.51.18.png)
 
 #### Roles
 
 - Analista funcional
-- Diseñador
+- Arquitecto
 - Programador
 - Tester / QA
+- Administrador de Bases de Datos (DBA)
+- Administrador de sistemas (SysAdmin)
 
 Se capturaban todos los requisitos, y una vez elaborados y validados con el cliente se "congelaban". Muchas veces requiriendo la firma del cliente en este paso. A partir de este momento el cliente no podía pedir cambios hasta que el software fuera finalizado y entregado. En todo caso los cambios eran considerados una segunda etapa donde todo el proceso empezada desde cero.
 
 Les programadores era consideraros como el equivalente de un obrero industrial que debía ejecutar el diseño que habían realizado les diseñadores en base a los requisitos elaborados por les analistas funcionales.
 Los documentos tenían la misma o más importancia que el software e incluso flotaba la idea de que el código iba a poder ser generado automáticamente.
-
 
 Los tiempos de entrega solían ser largos y muchos proyectos de software fracasaron en esta época. Esto llevó a que surgieran nuevas metodologías de desarrollo de software.
 
@@ -43,40 +47,35 @@ Es un proceso iterativo que tiene forma de mini cascadas. Si bien cada iteració
 
 ![Etapas de RUP](https://image.slidesharecdn.com/metodologarupfinal-170322045322/95/metodologa-rup-final-6-638.jpg?cb=1490158865)
 
-Se aceptan cambios y se favorece la interacción con el cliente.
+Algunas de los nuevos conceptos que introduce UP son:
 
-La calidad del producto debe evaluarse en todas las etapas del proceso.
+    - Se aceptan cambios y se favorece la interacción con el cliente.
+
+    - La calidad del producto debe evaluarse en todas las etapas del proceso.
 
 
 ### Metodologías ágiles
 
+- La necesidad de realizar cambios en los proyectos hace que sea imprescindible que los planes sean adaptables.
 
+- Los roles con objetivos contrapuestos pueden perjudicar el objetivo principal que es entregar valor al cliente.
 
+- La mejor forma para obtener feedback del cliente es la interacción constante.
 
-### Lean
+- En vez de documentos, la entrega de software funcionando, por más que sea parcial, le da visibilidad al producto. Esto permite que el cliente pueda corroborar sus expectativas y dar feedback más temprano.
 
-Los siete principios del desarrollo Lean son: 
-- Eliminar el desperdicio
-- Generar calidad
-- Crear conocimiento
-- Diferir el compromiso
-- Entregar rápidamente
-- Respetar a las personas
-- Optimizar el todo
-
-
-## Nuevas prácticas y conceptos en desarrollo de software
-
-- Programacion de a pares y en masa (mobbing)
-- Unit testing y desarrollo guiado por pruebas (TDD)
-- Integración continua / Despliegue continuo / Distribución continua
-
-    Mantener el código en un estado desplegable en todo momento
-
-- DevOps
-- Máquinas virtuales, containers e infraestructura como código
 
 ## Ciclo de liberación del software
+
+## Release
+
+Release: es una versión del software que se distribuye a los clientes.
+Cada release incluye nueva funcionalidad o está concebida para diferentes plataformas de hardware.
+
+Un release del sistema no es sólo el código ejecutable del sistema. Las entregas tambien incluyen:
+programa de instalacion, documentación, archivos de configuración, etc.
+
+Por ejemplo, Google el 21 de agosto de 2017 lanzó la versión 8.0 de Android, que se llama Oreo. Esto quiere decir que hizo un release de su software Android.
 
 - Pre-alpha: antes del testing
     - Milestone: hito

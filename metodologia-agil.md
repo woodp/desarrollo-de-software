@@ -1,19 +1,6 @@
-# Metodologías del desarrolo de software
+# Metodologías ágiles del desarrolo de software
 
-## Introducción 
-
-- Cascada (Waterfall)
-
-- Ágiles
-    - Scrum
-    - Kanban
-    - XP
-
-- Lean
-
-- Cascada vs Scrum
-
-## Metodologías Ágiles
+Todo en el software cambia, los requisitos cambian, los diseños cambian, el negocia cambia, el recurso humano cambia, las tecnologías cambian, pero el problema no es el cambio el problema es la incapacidad de adaptarnos al cambio.
 
 En los últimos 40 años no ha existido ninguna metodología de desarrollo exitosa que no sea iterativa.
 El proceso en espiral, el unificado y los ágiles, todos los procesos recomendados tanto desde la industria como desde la academia utilizan una estrategia de aproximaciones sucesivas para su desarrollo.
@@ -40,7 +27,7 @@ El proceso iterativo nos permite:
 
     - Maximizar las oportunidades de control
 
-        Al final de cada iteración se pueden correr pruebas, realizar métricas, contastar con el cliente para validar el producto.
+        Al final de cada iteración se pueden correr pruebas, realizar métricas, contrastar con el cliente para validar el producto.
 
 
 pag 30 - 31
@@ -53,16 +40,25 @@ software tanto por nuestra propia experiencia como
 ayudando a terceros. A través de este trabajo hemos
 aprendido a valorar:
 
-Individuos e interacciones sobre procesos y herramientas
-Software funcionando sobre documentación extensiva
-Colaboración con el cliente sobre negociación contractual
-Respuesta ante el cambio sobre seguir un plan
+- Individuos e interacciones sobre procesos y herramientas
+- Software funcionando sobre documentación extensiva
+- Colaboración con el cliente sobre negociación contractual
+- Respuesta ante el cambio sobre seguir un plan
 
 Esto es, aunque valoramos los elementos de la derecha,
 valoramos más los de la izquierda.
 
 
 ## Scrum
+
+El nombre tiene su origen en el rugby, donde el Scrum contenía la metáfora perfecta para lo que Sutherland comprendía como  trabajo en equipo: acoplamiento, unidad de propósito y claridad de metas.
+
+El equipo Scrum incluye tres roles: el product
+owner (decide qué trabajo deberá ser realizado), el scrum
+master (actúa como líder servicial, ayudando al equipo y
+a la organización a hacer el mejor uso de scrum), y los
+miembros del equipo de desarrollo (construye el
+producto en forma incremental, en una serie de sprints) 
 
 ¨Una carrera de postas versus una partido de rugby donde todo el equipo avanza junto¨
 
@@ -87,6 +83,8 @@ Algunas empresas que usa Scrum:
 • Sabre
 • Time Warner
 • Turner Broadcasting
+
+
 
 Roles:
 
@@ -128,6 +126,13 @@ Artefactos:
     - Product backlog: lista de tareas a hacer, generalmente user stories
     - Sprint backlog: tareas a realizar en ese sprint
     - Burndown chart del sprint o del release
+
+
+![](http://webipedia.es/wp-content/uploads/2018/06/12_Caracter%C3%ADsticas-1024x676.jpg)
+
+![](http://webipedia.es/wp-content/uploads/2018/06/21_Funcionamiento-1024x578.jpg)
+
+Definición de terminado (Definition of Done)
 
 ## Lean
 

@@ -1,6 +1,6 @@
 # Introducción al desarrollo de software
 
-El desarrollo de software es una disciplona joven. Hace poco más de 60 años que se programan computadoras, hace 40 se empezó a intentar sistematizar un proceso, y hace unos 30 se empezaron a introduciar paradigmas que permitan el manejo de la complejidad. Comparado con las ingenierías tradicionales que tienen siglos de antigüedad, es una actividad inmadura.
+El desarrollo de software es una disciplina joven. Hace poco más de 60 años que se programan computadoras, hace 40 se empezó a intentar sistematizar un proceso, y hace unos 30 se empezaron a introducir paradigmas que permitan el manejo de la complejidad. Comparado con las ingenierías tradicionales que tienen siglos de antigüedad, es una actividad inmadura.
 
 ## Metodologías de software
 
@@ -39,13 +39,14 @@ Los documentos tenían la misma o más importancia que el software e incluso flo
 
 Los tiempos de entrega solían ser largos y muchos proyectos de software fracasaron en esta época. Esto llevó a que surgieran nuevas metodologías de desarrollo de software.
 
-### UP: Unified Process
+
+### Iterativo: Unified Process
 
 RUP: Rational Unified Process
 
 Es un proceso iterativo que tiene forma de mini cascadas. Si bien cada iteración abarca todas las fases. En las primeras iteraciones tiene preponderancia la elaboración requisitos, luego en sucesivas iteraciones el diseño, después el desarrollo y por último el despliegue.
 
-![Etapas de RUP](https://image.slidesharecdn.com/metodologarupfinal-170322045322/95/metodologa-rup-final-6-638.jpg?cb=1490158865)
+![Etapas de UP](https://image.slidesharecdn.com/metodologarupfinal-170322045322/95/metodologa-rup-final-6-638.jpg?cb=1490158865)
 
 Algunas de los nuevos conceptos que introduce UP son:
 
@@ -58,16 +59,16 @@ Algunas de los nuevos conceptos que introduce UP son:
 
 - La necesidad de realizar cambios en los proyectos hace que sea imprescindible que los planes sean adaptables.
 
-- Los roles con objetivos contrapuestos pueden perjudicar el objetivo principal que es entregar valor al cliente.
-
 - La mejor forma para obtener feedback del cliente es la interacción constante.
 
 - En vez de documentos, la entrega de software funcionando, por más que sea parcial, le da visibilidad al producto. Esto permite que el cliente pueda corroborar sus expectativas y dar feedback más temprano.
 
+- Los roles con objetivos contrapuestos pueden perjudicar el objetivo principal que es entregar valor al cliente.
+
+- Foco en las personas y en el trabajo en equipo
+
 
 ## Ciclo de liberación del software
-
-## Release
 
 Release: es una versión del software que se distribuye a los clientes.
 Cada release incluye nueva funcionalidad o está concebida para diferentes plataformas de hardware.
